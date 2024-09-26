@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marksheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #5100e8;
+        }
+        table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tfoot {
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Marksheet</h1>
+
+    <table>
+        <!-- First Row: Student Name and Roll Number -->
+        <tr>
+            <th colspan="2">Student Name: Harsh Srivastava</th>
+            <th2></th2>Roll Number: 50</th>
+        </tr>
+
+        <!-- Subject Names and Marks -->
+        <tr>
+            <th>Subject</th>
+            <th>Marks Scored</th>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Chemistry</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>Computer Science</td>
+            <td>95</td>
+        </tr>
+
+        <!-- Total Marks and Percentage (calculated manually) -->
+        <tfoot>
+        <tr>
+            <td>Total Marks</td>
+            <td>433</td>
+        </tr>
+        <tr>
+            <td>Percentage</td>
+            <td>86.6%</td>
+        </tr>
+        </tfoot>
+    </table>
+
+    <div class="footer">
+        Designed by: [Harsh Srivastava]
+    </div>
+
+</body>
+</html>
